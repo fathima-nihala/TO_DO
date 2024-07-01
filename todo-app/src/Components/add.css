@@ -1,0 +1,116 @@
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.add-container{
+    width: 400px;
+    height: 550px;
+    background-color: rgb(248, 196, 232);
+    border-radius: 20px;
+    align-items: center; 
+    position: relative; 
+    padding: 10px;
+}
+.addtask-btn button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+    background-color:white;
+    font-size: 16px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    margin-left: 130px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.addtask-btn button:hover{
+    background-color:white;
+}
+.add-container-sub{
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 20px;
+}
+.add-container-sub input{
+    width: 270px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+input[type="text"]::placeholder{
+    text-indent: 15px;
+}
+.add-container-sub button{
+    width: 100px;
+    height: 34px;
+    border: none;
+    background-color:white;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.add-container-sub button:hover{
+    background-color: rgb(160, 159, 159);
+}
+/* *******************PendingPage*********** */
+.pending{
+    overflow: hidden;
+}
+.pending h2{
+    margin-left: 4px;
+}
+.pending-sub-cntr{
+    width: 400px;
+    display: flex;
+}
+.pending-cntr{
+   margin-bottom: 5px;
+}
+.icon{
+    margin-top: 20px;
+    margin-left: auto; 
+    color: black;
+ }
+ /************ completed*********** */
+ .comp-link{
+    text-decoration: none;
+    color: black;
+ }
+/* ************Edite************ */
+.edit input{
+    width: 300px;
+}
+.edit button{
+    width: 90px;
+}
+
+
+
+  
+@media screen and (max-width: 768px) {
+    .add-container {
+        width: 90%;
+    }
+
+    .addtask-btn button {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .add-container-sub input {
+        width: 70%;
+    }
+
+    .edit input {
+        width: 80%;
+    }
+}
+
+
+  
